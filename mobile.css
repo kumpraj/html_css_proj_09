@@ -1,0 +1,437 @@
+body{
+  width: 320px;
+  margin: auto;
+}
+
+header {
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+    width: 320px;
+  }
+
+  
+  
+  nav {
+    display:flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-top: 15px;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin: auto;
+    font-size: 12px;
+    padding: 10px 10px;
+    
+  }
+  
+  .nav-item-active {
+    margin: auto;
+    font-size: 12px;
+    
+  }
+  
+  .logo {
+    width: 70px;
+    margin:auto;
+    order: 0;
+  }
+  
+  .header-text {
+    max-width: 350px;
+    color: #fff;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 25px;
+  }
+
+  .header-text img {
+    display: none;
+  }
+  
+  .header-text h2 {
+    font-size: 20px;
+    margin: auto;
+  }
+  
+  .header-text p {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .header-image {
+    position: static;
+    width: 280px; 
+  }
+
+  /* companies */
+
+  .companies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100%;
+    padding: 20px 0;
+    gap: 10px;
+  }
+  
+  .company-items {
+    text-decoration: none;
+    margin: auto;
+    font-size: 14px;    
+  }
+
+  .api-heading {
+    font-weight: bolder;
+    margin-left: 90px;
+    margin-top: 100px;
+    font-style: bold;
+  }
+
+  /* API's */
+
+  .api {
+    margin: auto;
+  }
+
+  .api-heading {
+    padding: 0;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    
+  }
+  
+  .cards {  
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+  
+  .card-active {
+    width: 230px;
+    height:230px;
+    margin: auto;
+    
+  }
+  
+  .card-logo {
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+  .card-head {
+    color: #1f1f1f;
+    margin-left: 30px;
+  }
+  
+  .card-head-active {
+    margin-left: 30px;
+    color: #3434b5;
+  }
+  
+  .card-body {
+    margin-left: 30px;
+    color: #1f1f1f;
+    font-size: 14px;
+  }
+
+  /* blog */
+  
+  .blog-heading {
+   
+    margin:auto;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .blog-heading h1 {
+    margin: auto;
+  }
+  
+  .blog-cards {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    
+  
+  }
+  
+  .blog-card {
+    height: 485px;
+    width: 250px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+  }
+  
+  .blog-content {
+    display: block;
+    margin: auto;
+    width: 200px;
+  }
+
+  .blog-content small {
+    font-size: smaller;
+  }
+  
+  .blog-image {
+    float: none;
+    display: block;
+    height: 200px;
+  }
+
+  .blog-image img {
+    max-width: 200px;
+    height: 200px;
+  }
+  
+  .blog-bottom {
+    float: right;
+    margin: auto;
+  }
+  
+  .blog-card-bottom-image {
+    margin-top: 20px;
+  }
+  
+  .blog-author {
+   margin: auto;
+   position: relative;
+   right: 20px;
+  }
+
+  /* faq-section */
+  
+  .faq-section {
+    margin: auto;
+    height: auto;
+    width: 320px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .faq-image {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .faq-image img {
+    
+    max-width: 320px;
+    margin: auto;
+    margin-top: 15px;
+    
+  }
+  
+  .faq-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .faq-content button {
+    font-size: 12px;
+    width: 120px;
+  }
+  
+  .faq-content h2 {
+    font-weight: bolder;
+    font-size: 150%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .faq-content h4   {
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  /* download -section */
+
+  .download-section {
+    margin: auto;
+    height: auto;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;;
+
+    
+  }
+  
+  .download-content {
+    float: none;
+    margin: auto;
+    
+  }
+
+ 
+  
+  .download-email {
+    float: right;
+    margin: auto;
+  
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  
+  }
+  
+  .download-content h1 {
+    font-size: 150%;
+  }
+  
+  .download-content span {
+    font-size: 80%;
+    font-weight: 100;
+  }
+  
+  form {
+    display:flex;
+    flex-direction:row;
+    height: 35px;
+    border:2px solid grey;
+    border-radius: 22px;
+    padding:2px;
+    background-color: #E9EDFF;
+  }
+  
+  input {
+    flex-grow:1;
+    border:none;
+    width: 150px;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  button {
+    width: 90px;
+    color: #fff;
+    border-radius: 20px;
+    border-width: 1px;
+    background-color: #5A31FC;
+  }
+
+  /* footer-section */
+
+  .footer-section {
+    margin: auto;
+    height: 180px;
+    width: 320px;
+    background-color: #3C0AFE;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  
+  
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-logo {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 70px;
+    padding: 0;
+    cursor: pointer;
+  }
+
+  
+  
+  .footer-left .list{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: max-content;
+    gap: 10px;
+    padding: 0;
+
+  }
+  
+  .logos-list{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    
+  }
+  
+  
+  
+  .list-items{
+    margin: auto;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .footer-right{
+    float: none;
+    margin: auto;
+  }
+  
+  .footer-logos{
+    margin: auto;
+    margin-right: 10px;
+    padding: 0;
+  }
+  
+ 
